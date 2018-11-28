@@ -17,7 +17,6 @@
         <version>2.0.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
         <!--排除掉spring相关的依赖包-->
-
     </parent>
 
     <properties>
@@ -41,10 +40,10 @@
         </dependency>
 
         <!--<dependency>-->
-            <!--<groupId>org.springframework.boot</groupId>-->
-            <!--<artifactId>spring-boot-devtools</artifactId>-->
-            <!--<optional>false</optional>-->
-            <!--&lt;!&ndash;<scope>runtime</scope>&ndash;&gt;-->
+        <!--<groupId>org.springframework.boot</groupId>-->
+        <!--<artifactId>spring-boot-devtools</artifactId>-->
+        <!--<optional>false</optional>-->
+        <!--&lt;!&ndash;<scope>runtime</scope>&ndash;&gt;-->
         <!--</dependency>-->
         <dependency>
             <groupId>mysql</groupId>
@@ -66,6 +65,11 @@
                     <artifactId>spring</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.46</version>
         </dependency>
     </dependencies>
 

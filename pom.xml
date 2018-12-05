@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yechao.dubbo</groupId>
-    <artifactId>demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>dubboDemo</artifactId>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>demo of Dubbo</name>
